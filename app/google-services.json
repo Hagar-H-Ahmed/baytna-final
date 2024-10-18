@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734911682028",
+    "project_id": "baytna-4a427",
+    "storage_bucket": "baytna-4a427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734911682028:android:9e15c4d122a8d7368b5cc9",
+        "android_client_info": {
+          "package_name": "com.example.baytna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc921pDTgrnG-bB0d9w42gwc7ShvXxkGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.Welcome">
+
+
+    <ImageView
+        android:id="@+id/welcome_pic"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="16dp"
+
+        app:srcCompat="@drawable/welcome_img2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/darkGray"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeSnt"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/gray2"
+        android:textSize="18sp"
+
+
+        />
+
+
+
+    <Button
+        android:id="@+id/welcom_btn2"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/light_grey"
+        android:textSize="18dp"
+        app:cornerRadius="16dp"
+
+        android:text="@string/btn1"
+        />
+
+    <Button
+        android:id="@+id/welcom_btn1"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        app:cornerRadius="16dp"
+        android:backgroundTint="@color/gray2"
+        android:text="@string/btn2"
+        />
+
+
+</LinearLayout>

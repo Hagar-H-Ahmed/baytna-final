@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Baytna" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/app_default</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="LoginTheme" parent="Base.Theme.Baytna">
+        <item name="android:statusBarColor">@color/app_default</item>
+    </style>
+
+    <style name="SignUpTheme" parent="Base.Theme.Baytna">
+        <item name="android:statusBarColor">@color/app_default</item>
+    </style>
+    <style name="Edit_txt_style">
+
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name = "android:padding">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:minHeight">148dp</item>
+
+    </style>
+
+    <style name="Edit_txt_style_signup">
+
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name = "android:padding">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:minHeight">100dp</item>
+
+
+    </style>
+
+
+
+</resources>

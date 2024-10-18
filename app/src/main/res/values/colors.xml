@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#005271</color>
+    <color name="dark_Cyan">#048785</color>
+    <color name="app_default">#38CBCB</color>
+    <color name="app_default_night">#060E1E</color>
+    <color name="light_grey">#CCDEDC</color>
+    <color name="light_cyan">#f6fbff</color>
+    <color name="gray">#B7B7B7</color>
+    <color name ="light_blue">#006BFF</color>
+    <color name="gray2">#90A4AE</color>
+    <color name="darkGray">#263238</color>
+
+    <color name="darkcyan">#488E97</color>
+</resources>
+
